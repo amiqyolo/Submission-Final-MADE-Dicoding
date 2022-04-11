@@ -1,6 +1,0 @@
-com.aplen.movieaplen:style/TextItem.ItemColor = 0x7e030001
-com.aplen.movieaplen:id/rv_favorite = 0x7e010001
-com.aplen.movieaplen:layout/fragment_favorite = 0x7e020000
-com.aplen.movieaplen:id/tv_title_box = 0x7e010002
-com.aplen.movieaplen:style/TextItem = 0x7e030000
-com.aplen.movieaplen:id/lottie_view_box = 0x7e010000

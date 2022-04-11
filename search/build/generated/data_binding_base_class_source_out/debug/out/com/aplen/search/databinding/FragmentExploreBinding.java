@@ -33,9 +33,6 @@ public final class FragmentExploreBinding implements ViewBinding {
   public final RecyclerView rvMovie;
 
   @NonNull
-  public final TextView tvDescExplore;
-
-  @NonNull
   public final TextView tvTitleExplore;
 
   @NonNull
@@ -43,13 +40,11 @@ public final class FragmentExploreBinding implements ViewBinding {
 
   private FragmentExploreBinding(@NonNull ConstraintLayout rootView, @NonNull SearchView itemSearch,
       @NonNull LottieAnimationView lottieView, @NonNull RecyclerView rvMovie,
-      @NonNull TextView tvDescExplore, @NonNull TextView tvTitleExplore,
-      @NonNull ShimmerFrameLayout viewShimmer) {
+      @NonNull TextView tvTitleExplore, @NonNull ShimmerFrameLayout viewShimmer) {
     this.rootView = rootView;
     this.itemSearch = itemSearch;
     this.lottieView = lottieView;
     this.rvMovie = rvMovie;
-    this.tvDescExplore = tvDescExplore;
     this.tvTitleExplore = tvTitleExplore;
     this.viewShimmer = viewShimmer;
   }
@@ -99,12 +94,6 @@ public final class FragmentExploreBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tv_desc_explore;
-      TextView tvDescExplore = ViewBindings.findChildViewById(rootView, id);
-      if (tvDescExplore == null) {
-        break missingId;
-      }
-
       id = R.id.tv_title_explore;
       TextView tvTitleExplore = ViewBindings.findChildViewById(rootView, id);
       if (tvTitleExplore == null) {
@@ -118,7 +107,7 @@ public final class FragmentExploreBinding implements ViewBinding {
       }
 
       return new FragmentExploreBinding((ConstraintLayout) rootView, itemSearch, lottieView,
-          rvMovie, tvDescExplore, tvTitleExplore, viewShimmer);
+          rvMovie, tvTitleExplore, viewShimmer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

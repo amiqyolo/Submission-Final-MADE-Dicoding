@@ -36,16 +36,15 @@
     <TextView
         android:id="@+id/tv_title_box"
         style="@style/TextItem.ItemColor"
-        android:layout_marginHorizontal="30dp"
         android:layout_marginTop="8dp"
         android:text="@string/your_favorite_data_doest_n_exits"
         android:textAlignment="center"
-        android:textSize="28sp"
+        android:textSize="26sp"
         android:textStyle="bold"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/lottie_view_box"
+        app:layout_constraintStart_toStartOf="@id/lottie_view_box"
         app:layout_constraintTop_toBottomOf="@id/lottie_view_box"
         app:layout_constraintVertical_bias=".05" />
 

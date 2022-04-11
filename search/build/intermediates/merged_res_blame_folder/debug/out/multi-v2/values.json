@@ -14,29 +14,29 @@
                         "endOffsets": "207,329"
                     },
                     "to": {
-                        "startLines": "5,9",
+                        "startLines": "4,8",
                         "startColumns": "4,4",
-                        "startOffsets": "235,392",
-                        "endLines": "8,11",
+                        "startOffsets": "200,357",
+                        "endLines": "7,10",
                         "endColumns": "12,12",
-                        "endOffsets": "387,508"
+                        "endOffsets": "352,473"
                     }
                 },
                 {
                     "source": "/home/amiqyolo/Desktop/Submission/MovieAplen/search/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "4,3,2",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "173,111,55",
-                        "endColumns": "61,61,55",
-                        "endOffsets": "230,168,106"
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "111,55",
+                        "endColumns": "88,55",
+                        "endOffsets": "195,106"
                     },
                     "to": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,117,179",
-                        "endColumns": "61,61,55",
-                        "endOffsets": "112,174,230"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,144",
+                        "endColumns": "88,55",
+                        "endOffsets": "139,195"
                     }
                 }
             ]

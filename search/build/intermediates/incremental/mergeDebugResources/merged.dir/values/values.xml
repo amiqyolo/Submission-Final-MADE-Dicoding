@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="explore_desc">find your movies now</string>
-    <string name="explore_title">Explore Best Movies</string>
+    <string name="explore_title">Explore and find the best movie of your choice</string>
     <string name="no_data">Data doest\'s Exits</string>
     <style name="TextItem">
         <item name="android:layout_width">0dp</item>
