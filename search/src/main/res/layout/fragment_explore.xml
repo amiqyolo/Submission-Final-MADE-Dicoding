@@ -23,27 +23,14 @@
     <TextView
         android:id="@+id/tv_title_explore"
         style="@style/TextItem.ItemColor"
-        android:layout_marginHorizontal="30dp"
         android:layout_marginTop="8dp"
         android:text="@string/explore_title"
         android:textAlignment="center"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/lottie_view" />
-
-    <TextView
-        android:id="@+id/tv_desc_explore"
-        style="@style/TextItem.ItemColor"
-        android:text="@string/explore_desc"
-        android:textAlignment="center"
         android:textSize="26sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/tv_title_explore"
-        app:layout_constraintStart_toStartOf="@+id/tv_title_explore"
-        app:layout_constraintTop_toBottomOf="@id/tv_title_explore"
-        app:layout_constraintVertical_bias="0" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/lottie_view"
+        app:layout_constraintStart_toStartOf="@id/lottie_view"
+        app:layout_constraintTop_toBottomOf="@id/lottie_view" />
 
     <com.facebook.shimmer.ShimmerFrameLayout
         android:id="@+id/view_shimmer"

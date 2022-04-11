@@ -138,13 +138,11 @@ class ExploreFragment : Fragment() {
                     resources.getString(R.string.no_data)
                 lottieView.visible()
                 tvTitleExplore.visible()
-                tvDescExplore.visible()
             }
         } else {
             binding?.apply {
                 lottieView.gone()
                 tvTitleExplore.gone()
-                tvDescExplore.gone()
             }
         }
     }
