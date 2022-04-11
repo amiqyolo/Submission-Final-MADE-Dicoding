@@ -20,13 +20,6 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.MovieAplen.Toolbar">
-        <item name="windowNoTitle">true</item>
-        <item name="android:background">@color/color_on_primary_dark</item>
-        <item name="titleTextColor">@color/color_on_primary</item>
-        <item name="titleTextAppearance">@style/TextAppearance.AppCompat.Large</item>
-    </style>
-
     <style name="Theme.MovieAplen.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.MovieAplen.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
@@ -48,11 +41,6 @@
 
     <style name="TextItem.OtherItemColor">
         <item name="android:textColor">@color/color_secondary_variant</item>
-    </style>
-
-    <style name="TextItem.ItemColor.Field">
-        <item name="android:ellipsize">end</item>
-        <item name="android:maxLines">1</item>
     </style>
 
     <style name="TextItem.OtherItemColor.Field">
