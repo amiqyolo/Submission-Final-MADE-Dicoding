@@ -1,0 +1,289 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aplen.movieaplen"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:6:5-67
+11-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:6:22-64
+12
+13    <!-- To store the heap dumps and leak analysis results. -->
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:23:5-80
+14-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:23:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+15-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:24:5-81
+15-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:24:22-78
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:26:5-77
+16-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:26:22-74
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18
+19    <application
+19-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:8:5-32:19
+20        android:name="com.aplen.movieaplen.MyApplication"
+20-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:9:9-38
+21        android:allowBackup="false"
+21-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:10:9-36
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/a06e6211dc97dc9ec3980b4da87dd00c/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+24-->[:favorite] /home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:18-51
+25        android:fullBackupContent="false"
+25-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:11:9-42
+26        android:hardwareAccelerated="false"
+26-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:13:9-44
+27        android:icon="@mipmap/ic_launcher"
+27-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:12:9-43
+28        android:label="@string/app_name"
+28-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:14:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:15:9-54
+30        android:supportsRtl="true"
+30-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:16:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.MovieAplen" >
+32-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:17:9-48
+33        <activity
+33-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:19:9-22:40
+34            android:name="com.aplen.movieaplen.ui.detail.DetailActivity"
+34-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:20:13-53
+35            android:exported="false"
+35-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:22:13-37
+36            android:theme="@style/Theme.MovieAplen.NoActionBar" />
+36-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:21:13-64
+37        <activity
+37-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:23:9-31:20
+38            android:name="com.aplen.movieaplen.ui.main.MainActivity"
+38-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:24:13-49
+39            android:exported="true" >
+39-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:25:13-36
+40            <intent-filter>
+40-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:26:13-30:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:27:17-69
+41-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:27:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:29:17-77
+43-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:29:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <uses-library
+47-->[androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+48            android:name="androidx.window.extensions"
+48-->[androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+49            android:required="false" />
+49-->[androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+50        <uses-library
+50-->[androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+51            android:name="androidx.window.sidecar"
+51-->[androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+52            android:required="false" />
+52-->[androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+53
+54        <provider
+54-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:29:9-37:20
+55            android:name="leakcanary.internal.LeakCanaryFileProvider"
+55-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:30:13-70
+56            android:authorities="com.squareup.leakcanary.fileprovider.com.aplen.movieaplen"
+56-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:31:13-88
+57            android:exported="false"
+57-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:32:13-37
+58            android:grantUriPermissions="true" >
+58-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:33:13-47
+59            <meta-data
+59-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:34:13-36:66
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:35:17-67
+61                android:resource="@xml/leak_canary_file_paths" />
+61-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:36:17-63
+62        </provider>
+63
+64        <activity
+64-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:39:9-70:20
+65            android:name="leakcanary.internal.activity.LeakActivity"
+65-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:40:13-69
+66            android:exported="true"
+66-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:41:13-36
+67            android:icon="@mipmap/leak_canary_icon"
+67-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:42:13-52
+68            android:label="@string/leak_canary_display_activity_label"
+68-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:43:13-71
+69            android:taskAffinity="com.squareup.leakcanary.com.aplen.movieaplen"
+69-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:44:13-76
+70            android:theme="@style/leak_canary_LeakCanary.Base" >
+70-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:45:13-63
+71            <intent-filter android:label="@string/leak_canary_import_hprof_file" >
+71-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:46:13-69:29
+71-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:46:28-81
+72                <action android:name="android.intent.action.VIEW" />
+72-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:47:17-69
+72-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:47:25-66
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:49:17-76
+74-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:49:27-73
+75                <category android:name="android.intent.category.BROWSABLE" />
+75-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:50:17-78
+75-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:50:27-75
+76
+77                <data android:scheme="file" />
+77-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+77-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:23-44
+78                <data android:scheme="content" />
+78-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+78-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:23-44
+79                <data android:mimeType="*/*" />
+79-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+80                <data android:host="*" />
+80-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+81                <data android:pathPattern=".*\\.hprof" />
+81-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+82                <data android:pathPattern=".*\\..*\\.hprof" />
+82-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+83                <data android:pathPattern=".*\\..*\\..*\\.hprof" />
+83-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+84                <data android:pathPattern=".*\\..*\\..*\\..*\\.hprof" />
+84-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+85                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.hprof" />
+85-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+86                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+86-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+87                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof" />
+87-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+88                <!--
+89            Since hprof isn't a standard MIME type, we have to declare such patterns.
+90            Most file providers will generate URIs including their own package name,
+91            which contains `.` characters that must be explicitly escaped in pathPattern.
+92            @see https://stackoverflow.com/a/31028507/703646
+93                -->
+94            </intent-filter>
+95        </activity>
+96
+97        <activity-alias
+97-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:72:9-89:26
+98            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+98-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:73:13-77
+99            android:banner="@drawable/leak_canary_tv_icon"
+99-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:74:13-59
+100            android:enabled="@bool/leak_canary_add_launcher_icon"
+100-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:75:13-66
+101            android:exported="true"
+101-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:76:13-36
+102            android:icon="@mipmap/leak_canary_icon"
+102-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:77:13-52
+103            android:label="@string/leak_canary_display_activity_label"
+103-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:78:13-71
+104            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+104-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:79:13-79
+105            android:taskAffinity="com.squareup.leakcanary.com.aplen.movieaplen"
+105-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:80:13-76
+106            android:theme="@style/leak_canary_LeakCanary.Base" >
+106-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:81:13-63
+107            <intent-filter>
+107-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:82:13-88:29
+108                <action android:name="android.intent.action.MAIN" />
+108-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:27:17-69
+108-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:27:25-66
+109
+110                <category android:name="android.intent.category.LAUNCHER" />
+110-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:29:17-77
+110-->/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:29:27-74
+111                <!-- Android TV launcher intent -->
+112                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+112-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:87:17-86
+112-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:87:27-83
+113            </intent-filter>
+114        </activity-alias>
+115
+116        <activity
+116-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:91:9-97:68
+117            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+117-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:92:13-80
+118            android:excludeFromRecents="true"
+118-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:93:13-46
+119            android:icon="@mipmap/leak_canary_icon"
+119-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:94:13-52
+120            android:label="@string/leak_canary_storage_permission_activity_label"
+120-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:95:13-82
+121            android:taskAffinity="com.squareup.leakcanary.com.aplen.movieaplen"
+121-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:96:13-76
+122            android:theme="@style/leak_canary_Theme.Transparent" />
+122-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:97:13-65
+123
+124        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+124-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:99:9-77
+124-->[com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:99:19-74
+125
+126        <provider
+126-->[com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+127            android:name="com.squareup.picasso.PicassoProvider"
+127-->[com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+128            android:authorities="com.aplen.movieaplen.com.squareup.picasso"
+128-->[com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+129            android:exported="false" />
+129-->[com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+130        <provider
+130-->[androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+131            android:name="androidx.startup.InitializationProvider"
+131-->[androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+132            android:authorities="com.aplen.movieaplen.androidx-startup"
+132-->[androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+133            android:exported="false" >
+133-->[androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+134            <meta-data
+134-->[androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+135                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+135-->[androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+136                android:value="androidx.startup" />
+136-->[androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+137            <meta-data
+137-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+138                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+138-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+139                android:value="androidx.startup" />
+139-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+140        </provider>
+141
+142        <service
+142-->[androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+143            android:name="androidx.room.MultiInstanceInvalidationService"
+143-->[androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+144            android:directBootAware="true"
+144-->[androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+145            android:exported="false" />
+145-->[androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+146
+147        <provider
+147-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:8:9-12:40
+148            android:name="leakcanary.internal.MainProcessAppWatcherInstaller"
+148-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:9:13-78
+149            android:authorities="com.aplen.movieaplen.leakcanary-installer"
+149-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:10:13-72
+150            android:enabled="@bool/leak_canary_watcher_auto_install"
+150-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:11:13-69
+151            android:exported="false" />
+151-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:12:13-37
+152        <provider
+152-->[com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:8:9-12:40
+153            android:name="leakcanary.internal.PlumberInstaller"
+153-->[com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:9:13-64
+154            android:authorities="com.aplen.movieaplen.plumber-installer"
+154-->[com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:10:13-69
+155            android:enabled="@bool/leak_canary_plumber_auto_install"
+155-->[com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:11:13-69
+156            android:exported="false" />
+156-->[com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:12:13-37
+157    </application>
+158
+159</manifest>

@@ -1,0 +1,32 @@
+R_DEF: Internal format may change without notice
+local
+color color_background
+color color_background_image_tint
+color color_error
+color color_on_background
+color color_on_error
+color color_on_primary
+color color_on_secondary
+color color_on_surface
+color color_primary
+color color_primary_variant
+color color_secondary
+color color_secondary_variant
+color color_surface
+drawable ic_broken_image
+drawable ic_error_image
+drawable ic_loading
+drawable ic_refresh
+drawable ic_star
+id img_item_poster
+id mcv_poster
+id tv_item_overview
+id tv_item_rating
+id tv_item_title
+layout item_row_movie
+string desc_image
+style TextItem
+style TextItem.ItemColor
+style TextItem.ItemColor.Field
+style TextItem.OtherItemColor
+style TextItem.OtherItemColor.Field

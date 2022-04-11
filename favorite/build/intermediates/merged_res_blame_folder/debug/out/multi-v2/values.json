@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,213",
+                        "endLines": "5,9",
+                        "endColumns": "12,12",
+                        "endOffsets": "207,329"
+                    },
+                    "to": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endLines": "5,8",
+                        "endColumns": "12,12",
+                        "endOffsets": "207,328"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+com.aplen.movieaplen:string/no_data = 0x7d030002
+com.aplen.movieaplen:string/explore_desc = 0x7d030000
+com.aplen.movieaplen:id/item_search = 0x7d010000
+com.aplen.movieaplen:layout/fragment_explore = 0x7d020000
+com.aplen.movieaplen:id/view_shimmer = 0x7d010005
+com.aplen.movieaplen:style/TextItem.ItemColor = 0x7d040001
+com.aplen.movieaplen:id/rv_movie = 0x7d010002
+com.aplen.movieaplen:style/TextItem = 0x7d040000
+com.aplen.movieaplen:id/tv_title_explore = 0x7d010004
+com.aplen.movieaplen:id/tv_desc_explore = 0x7d010003
+com.aplen.movieaplen:id/lottie_view = 0x7d010001
+com.aplen.movieaplen:string/explore_title = 0x7d030001

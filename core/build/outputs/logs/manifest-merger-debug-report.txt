@@ -1,0 +1,19 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml:2:1-4:12
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml:2:1-4:12
+	package
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml:2:11-35
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml:2:1-4:12
+uses-sdk
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/core/src/main/AndroidManifest.xml

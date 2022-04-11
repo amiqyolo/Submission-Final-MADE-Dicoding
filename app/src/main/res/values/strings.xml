@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Movie Aplen</string>
+    <string name="title_home">Popular Movies</string>
+    <string name="title_explore">Explore Movies</string>
+    <string name="title_favorite">Your Favorites</string>
+    <string name="title_setting">Setting Apps</string>
+    <string name="title_nav_home">Home</string>
+    <string name="title_nav_explore">Explore</string>
+    <string name="title_nav_favorite">Favorite</string>
+    <string name="title_nav_setting">Setting</string>
+    <string name="info_release">Release</string>
+    <string name="Info_genre">Genre</string>
+    <string name="info_overview">Overview</string>
+    <string name="detail_information">Detail Information</string>
+    <string name="empty_title">No Title</string>
+    <string name="empty_vote">No Vote Average</string>
+    <string name="empty_release">No Release Date</string>
+    <string name="empty_genres">No Genres</string>
+    <string name="empty_overview">No Overview</string>
+    <string name="favorites">Favorites</string>
+    <string name="share">Share</string>
+    <string name="title_shared">Beritahu orang lain yuuk…!</string>
+    <string name="text_shared">Kunjungi https://www.themoviedb.org untuk mendapatkan lebih banyak Daftar Movies dan Tv Shows.</string>
+    <string name="your_favorite_data_doest_n_exits">Your Favorite Data Doest\'n Exits.</string>
+    <string name="explore_do_you_want_to_movie">Explore do you want to movie?</string>
+    <string name="title_search">Search</string>
+    <string name="dark_mode_title">Dark Mode</string>
+    <string name="no_data">Data doest\'s Exits</string>
+    <string name="explore_title">Explore Best Movies</string>
+    <string name="explore_desc">find your movies now</string>
+    <string name="refresh">Refresh</string>
+</resources>

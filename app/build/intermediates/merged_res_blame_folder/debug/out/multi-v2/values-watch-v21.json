@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/1b80d609baa5b2765134a3a7e2deb5ee/transformed/appcompat-1.4.1/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

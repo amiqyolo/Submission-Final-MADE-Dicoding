@@ -1,0 +1,13 @@
+com/aplen/favorite/ui/FavoriteViewModel_Factory.java
+ com.aplen.favorite.ui.FavoriteViewModel_Factory
+com/aplen/favorite/BuildConfig.java
+ com.aplen.favorite.BuildConfig
+com/aplen/favorite/di/DaggerFavoriteComponent.java
+ com.aplen.favorite.di.DaggerFavoriteComponent
+ com.aplen.favorite.di.DaggerFavoriteComponent$1
+ com.aplen.favorite.di.DaggerFavoriteComponent$Factory
+ com.aplen.favorite.di.DaggerFavoriteComponent$com_aplen_movieaplen_di_AppComponent_provideMovieInteractor
+com/aplen/favorite/databinding/FragmentFavoriteBinding.java
+ com.aplen.favorite.databinding.FragmentFavoriteBinding
+com/aplen/favorite/ui/FavoriteFragment_MembersInjector.java
+ com.aplen.favorite.ui.FavoriteFragment_MembersInjector

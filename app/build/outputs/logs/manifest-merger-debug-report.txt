@@ -1,0 +1,588 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [:core] /home/amiqyolo/Desktop/Submission/MovieAplen/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:7.0.4] /home/amiqyolo/.gradle/caches/transforms-3/5b410200d61e5d55ce9a074b007b3a12/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/757e5e6deda31195db45ab1893ed2200/transformed/navigation-fragment-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/789b17815c6cb46ec9c54b5f13bec091/transformed/navigation-fragment-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/ebeb2b2c24f7299b23278cc303ae9256/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/29e42b358c9894ebea8e830e2fe5cc2e/transformed/navigation-ui-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/e8778537afa1a9f30153ca001a854faf/transformed/navigation-runtime-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/59b9d973bf3579da3103a104ba280d19/transformed/navigation-ui-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/7ef1504a4f647e470f24542122585316/transformed/navigation-runtime-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.4.0] /home/amiqyolo/.gradle/caches/transforms-3/834f210782b78ad04495b5e89429dcce/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/bb97e2fe78631dbc279794f0af42b894/transformed/navigation-common-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/1fbaf39ac72d6422e7f38aed98c3862a/transformed/navigation-common-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/28977190c933c850ff22222e50935c38/transformed/jetified-lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/amiqyolo/.gradle/caches/transforms-3/7aaf4372e2b0733d876a041a7f225e2f/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/8e068958049ab0d7c571622ac22db023/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/f222a1c1e7bd1d2f1079fedbae190c98/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/amiqyolo/.gradle/caches/transforms-3/968a77e90752cb747a504f9cfc3a660c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/amiqyolo/.gradle/caches/transforms-3/178db455aac8746070076f51f10ca6f0/transformed/jetified-lottie-3.4.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/ce08653ee4b45eef2873b6509a62caae/transformed/jetified-leakcanary-android-2.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:17:1-102:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/a4039d3c38c0fb780952349bec74e33d/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/d6d3774648ef084e085a7edd6ca2ef43/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/1c4a82ca8c7893fa894f1b181d725ec1/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.5.0] /home/amiqyolo/.gradle/caches/transforms-3/2effe45915c24c17016d62eadfd60535/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /home/amiqyolo/.gradle/caches/transforms-3/4358d67290c77f820556ba168fb654fc/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/1b80d609baa5b2765134a3a7e2deb5ee/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/2a05daf81a07bcef3b97eb5673266dfc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/9d14d89b2c5e2f753d7fe4c48b77fd62/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/f8e510b152ff4b88b52fb46f55751c0e/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/amiqyolo/.gradle/caches/transforms-3/05c7b75f7ce3a45bc3f78045b7bc4466/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/90d7123bde157d56f8088e162ae9a484/transformed/jetified-lifecycle-reactivestreams-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] /home/amiqyolo/.gradle/caches/transforms-3/470d39856c87625a66b512945ae9ea58/transformed/jetified-shimmer-0.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/c5f2a5b60e5126a44f59d297aa70313e/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/12a5737004f76f045df99b12ce5e66f3/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.media:media:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/c6f29f021d53d1a07c99d6046f76a132/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/52bc1dfe13f3691cd93d60cd4aea512c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/a20d3ee394a8f77554b961ebe6e2d3a9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/amiqyolo/.gradle/caches/transforms-3/f9a972ba6d47f6eab4ba5f3ecf0d28df/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/dd5494cf5c0c685dece7571ede7b49c5/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/4dc3d178685001dd124cf28fb0d29415/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/6582ebd8bf3115aef8628c49432fe042/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.4.0] /home/amiqyolo/.gradle/caches/transforms-3/71e1685a44a0d21392fb90f68ff4f6e3/transformed/jetified-activity-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/7edd9d554b011d04d107db78b2a75349/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/6c815b734264dcfd80860982bfae21b2/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/bc55e50e42945bf0760d6aabe2e82c15/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/bb09903176c043574ceffd55e813c5ea/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/5e4e9fb2642e6064c8468b31f5d00ddb/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/2ee9490c1d00c67be829d32784c7027e/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/a06e6211dc97dc9ec3980b4da87dd00c/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/135e7a0a6099374b7bd16031b87a2ba1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/2c36d5eaf8077fc27f2dfbf4deb3becb/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/amiqyolo/.gradle/caches/transforms-3/52b5877121aef2735d56e79b7a6dbacc/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/0654c146574c7cafe9fe25efb614b6b6/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/5ba9cdd636e35e2044f49a6e0ff5ffc6/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/302ead06fc108d0874b8e3f7497244dc/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/dd4e00bd7d81378dd9c352d262f42133/transformed/lifecycle-reactivestreams-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/0b38e17d362bdbaee4e8020af04b8eaf/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/amiqyolo/.gradle/caches/transforms-3/9a6fdb9a2bcf9ed97bfb9869a2bd9158/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/961df9cfa941e4e4ed61265578baff9c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/6381ba96c1137cfa9765b6e97e9b066a/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-rxjava2:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/340d55a47310bd5878ce965d9946abe7/transformed/room-rxjava2-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/494d24e2657d464a95f9cff5e0df8b76/transformed/jetified-lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/6fe9aa5ffa02a44d065f3dc535cc6284/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/cfbaa9a9f7df712b3e985cfb4f986276/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/amiqyolo/.gradle/caches/transforms-3/e7faa9868cfa37e64284fc0c1c6ca076/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/f086fa1d2b8b2f2d9b9d69d24b08026d/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/fa6d291c4684acdcd335340505b0b1bd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/c125c1b0abfdb113892bf57a1c66ff43/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/15f10ce2fda71203a3b8823674a1d5e4/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/fa2f93a98d2f33198787af7ae98b3152/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/amiqyolo/.gradle/caches/transforms-3/f6a843617ceaccb2179fa954bff66959/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [net.zetetic:android-database-sqlcipher:4.5.1] /home/amiqyolo/.gradle/caches/transforms-3/149ce8a7a719a63915aa59ea255783c4/transformed/jetified-android-database-sqlcipher-4.5.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.sqlite:sqlite-ktx:2.2.0] /home/amiqyolo/.gradle/caches/transforms-3/b5dc0bd265e3bcc51ab5b46664b761c1/transformed/jetified-sqlite-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/amiqyolo/.gradle/caches/transforms-3/c03a7a4d54284da97332e07d37bc485a/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/93f504dabe87a9266b357e7cdb25400a/transformed/jetified-leakcanary-object-watcher-android-androidx-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/8db7b628a602d07c3a739df548829b92/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/3282dc449868a296c3361751e95db411/transformed/jetified-leakcanary-object-watcher-android-core-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:plumber-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/23a50ac8e44cb813626baaec4fc76ba0/transformed/jetified-plumber-android-core-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/d611b162c084271bbfddda29f5c85b15/transformed/jetified-leakcanary-android-utils-2.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.curtains:curtains:1.2.3] /home/amiqyolo/.gradle/caches/transforms-3/ac0568e22acee96ed107d26aad8bcfb7/transformed/jetified-curtains-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/f3354b49e479a204802bdd361625ac63/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/amiqyolo/.gradle/caches/transforms-3/1aac9559d23fea5aab1cafda08076451/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [:favorite] /home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:search] /home/amiqyolo/Desktop/Submission/MovieAplen/search/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:setting] /home/amiqyolo/Desktop/Submission/MovieAplen/setting/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:4:5-35
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:8:5-32:19
+MERGED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/amiqyolo/.gradle/caches/transforms-3/178db455aac8746070076f51f10ca6f0/transformed/jetified-lottie-3.4.1/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/amiqyolo/.gradle/caches/transforms-3/178db455aac8746070076f51f10ca6f0/transformed/jetified-lottie-3.4.1/AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:28:5-100:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:28:5-100:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.material:material:1.5.0] /home/amiqyolo/.gradle/caches/transforms-3/2effe45915c24c17016d62eadfd60535/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] /home/amiqyolo/.gradle/caches/transforms-3/2effe45915c24c17016d62eadfd60535/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /home/amiqyolo/.gradle/caches/transforms-3/4358d67290c77f820556ba168fb654fc/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /home/amiqyolo/.gradle/caches/transforms-3/4358d67290c77f820556ba168fb654fc/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/a06e6211dc97dc9ec3980b4da87dd00c/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/a06e6211dc97dc9ec3980b4da87dd00c/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/amiqyolo/.gradle/caches/transforms-3/9a6fdb9a2bcf9ed97bfb9869a2bd9158/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/amiqyolo/.gradle/caches/transforms-3/9a6fdb9a2bcf9ed97bfb9869a2bd9158/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/961df9cfa941e4e4ed61265578baff9c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/961df9cfa941e4e4ed61265578baff9c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:7:5-13:19
+MERGED from [:favorite] /home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:5-54
+MERGED from [:favorite] /home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:5-54
+MERGED from [:search] /home/amiqyolo/Desktop/Submission/MovieAplen/search/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:5-54
+MERGED from [:search] /home/amiqyolo/Desktop/Submission/MovieAplen/search/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:5-54
+MERGED from [:setting] /home/amiqyolo/Desktop/Submission/MovieAplen/setting/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:5-54
+MERGED from [:setting] /home/amiqyolo/Desktop/Submission/MovieAplen/setting/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:5-54
+	android:extractNativeLibs
+		ADDED from [:favorite] /home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:21:18-51
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/a06e6211dc97dc9ec3980b4da87dd00c/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:14:9-41
+	android:hardwareAccelerated
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:13:9-44
+	android:fullBackupContent
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:11:9-42
+	tools:ignore
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:18:9-43
+	android:roundIcon
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:10:9-36
+	android:theme
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:17:9-48
+	android:name
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:9:9-38
+activity#com.aplen.movieaplen.ui.detail.DetailActivity
+ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:19:9-22:40
+	android:exported
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:22:13-37
+	android:theme
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:21:13-64
+	android:name
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:20:13-53
+activity#com.aplen.movieaplen.ui.main.MainActivity
+ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:23:9-31:20
+	android:exported
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:24:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+MERGED from [:core] /home/amiqyolo/Desktop/Submission/MovieAplen/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:core] /home/amiqyolo/Desktop/Submission/MovieAplen/core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.4] /home/amiqyolo/.gradle/caches/transforms-3/5b410200d61e5d55ce9a074b007b3a12/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.4] /home/amiqyolo/.gradle/caches/transforms-3/5b410200d61e5d55ce9a074b007b3a12/transformed/jetified-viewbinding-7.0.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/757e5e6deda31195db45ab1893ed2200/transformed/navigation-fragment-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/757e5e6deda31195db45ab1893ed2200/transformed/navigation-fragment-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/789b17815c6cb46ec9c54b5f13bec091/transformed/navigation-fragment-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/789b17815c6cb46ec9c54b5f13bec091/transformed/navigation-fragment-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/ebeb2b2c24f7299b23278cc303ae9256/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/ebeb2b2c24f7299b23278cc303ae9256/transformed/jetified-fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/29e42b358c9894ebea8e830e2fe5cc2e/transformed/navigation-ui-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/29e42b358c9894ebea8e830e2fe5cc2e/transformed/navigation-ui-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/e8778537afa1a9f30153ca001a854faf/transformed/navigation-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/e8778537afa1a9f30153ca001a854faf/transformed/navigation-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/59b9d973bf3579da3103a104ba280d19/transformed/navigation-ui-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/59b9d973bf3579da3103a104ba280d19/transformed/navigation-ui-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/7ef1504a4f647e470f24542122585316/transformed/navigation-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/7ef1504a4f647e470f24542122585316/transformed/navigation-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] /home/amiqyolo/.gradle/caches/transforms-3/834f210782b78ad04495b5e89429dcce/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.4.0] /home/amiqyolo/.gradle/caches/transforms-3/834f210782b78ad04495b5e89429dcce/transformed/jetified-activity-ktx-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/bb97e2fe78631dbc279794f0af42b894/transformed/navigation-common-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/bb97e2fe78631dbc279794f0af42b894/transformed/navigation-common-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/1fbaf39ac72d6422e7f38aed98c3862a/transformed/navigation-common-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/1fbaf39ac72d6422e7f38aed98c3862a/transformed/navigation-common-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/28977190c933c850ff22222e50935c38/transformed/jetified-lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/28977190c933c850ff22222e50935c38/transformed/jetified-lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/amiqyolo/.gradle/caches/transforms-3/7aaf4372e2b0733d876a041a7f225e2f/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /home/amiqyolo/.gradle/caches/transforms-3/7aaf4372e2b0733d876a041a7f225e2f/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/8e068958049ab0d7c571622ac22db023/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/8e068958049ab0d7c571622ac22db023/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/f222a1c1e7bd1d2f1079fedbae190c98/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/f222a1c1e7bd1d2f1079fedbae190c98/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/amiqyolo/.gradle/caches/transforms-3/968a77e90752cb747a504f9cfc3a660c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/amiqyolo/.gradle/caches/transforms-3/968a77e90752cb747a504f9cfc3a660c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/amiqyolo/.gradle/caches/transforms-3/178db455aac8746070076f51f10ca6f0/transformed/jetified-lottie-3.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.1] /home/amiqyolo/.gradle/caches/transforms-3/178db455aac8746070076f51f10ca6f0/transformed/jetified-lottie-3.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/ce08653ee4b45eef2873b6509a62caae/transformed/jetified-leakcanary-android-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/ce08653ee4b45eef2873b6509a62caae/transformed/jetified-leakcanary-android-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/a4039d3c38c0fb780952349bec74e33d/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/a4039d3c38c0fb780952349bec74e33d/transformed/jetified-lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/d6d3774648ef084e085a7edd6ca2ef43/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/d6d3774648ef084e085a7edd6ca2ef43/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/1c4a82ca8c7893fa894f1b181d725ec1/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/1c4a82ca8c7893fa894f1b181d725ec1/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] /home/amiqyolo/.gradle/caches/transforms-3/2effe45915c24c17016d62eadfd60535/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] /home/amiqyolo/.gradle/caches/transforms-3/2effe45915c24c17016d62eadfd60535/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /home/amiqyolo/.gradle/caches/transforms-3/4358d67290c77f820556ba168fb654fc/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /home/amiqyolo/.gradle/caches/transforms-3/4358d67290c77f820556ba168fb654fc/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/1b80d609baa5b2765134a3a7e2deb5ee/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/1b80d609baa5b2765134a3a7e2deb5ee/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/2a05daf81a07bcef3b97eb5673266dfc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/2a05daf81a07bcef3b97eb5673266dfc/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/9d14d89b2c5e2f753d7fe4c48b77fd62/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/9d14d89b2c5e2f753d7fe4c48b77fd62/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/f8e510b152ff4b88b52fb46f55751c0e/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/f8e510b152ff4b88b52fb46f55751c0e/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/amiqyolo/.gradle/caches/transforms-3/05c7b75f7ce3a45bc3f78045b7bc4466/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/amiqyolo/.gradle/caches/transforms-3/05c7b75f7ce3a45bc3f78045b7bc4466/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/90d7123bde157d56f8088e162ae9a484/transformed/jetified-lifecycle-reactivestreams-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/90d7123bde157d56f8088e162ae9a484/transformed/jetified-lifecycle-reactivestreams-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] /home/amiqyolo/.gradle/caches/transforms-3/470d39856c87625a66b512945ae9ea58/transformed/jetified-shimmer-0.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.shimmer:shimmer:0.5.0] /home/amiqyolo/.gradle/caches/transforms-3/470d39856c87625a66b512945ae9ea58/transformed/jetified-shimmer-0.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/c5f2a5b60e5126a44f59d297aa70313e/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/c5f2a5b60e5126a44f59d297aa70313e/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/12a5737004f76f045df99b12ce5e66f3/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/12a5737004f76f045df99b12ce5e66f3/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.media:media:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/c6f29f021d53d1a07c99d6046f76a132/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/c6f29f021d53d1a07c99d6046f76a132/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/52bc1dfe13f3691cd93d60cd4aea512c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/52bc1dfe13f3691cd93d60cd4aea512c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/a20d3ee394a8f77554b961ebe6e2d3a9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/a20d3ee394a8f77554b961ebe6e2d3a9/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/amiqyolo/.gradle/caches/transforms-3/f9a972ba6d47f6eab4ba5f3ecf0d28df/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/amiqyolo/.gradle/caches/transforms-3/f9a972ba6d47f6eab4ba5f3ecf0d28df/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/dd5494cf5c0c685dece7571ede7b49c5/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/dd5494cf5c0c685dece7571ede7b49c5/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/4dc3d178685001dd124cf28fb0d29415/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/4dc3d178685001dd124cf28fb0d29415/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/6582ebd8bf3115aef8628c49432fe042/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/6582ebd8bf3115aef8628c49432fe042/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] /home/amiqyolo/.gradle/caches/transforms-3/71e1685a44a0d21392fb90f68ff4f6e3/transformed/jetified-activity-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.4.0] /home/amiqyolo/.gradle/caches/transforms-3/71e1685a44a0d21392fb90f68ff4f6e3/transformed/jetified-activity-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/7edd9d554b011d04d107db78b2a75349/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/7edd9d554b011d04d107db78b2a75349/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/6c815b734264dcfd80860982bfae21b2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/6c815b734264dcfd80860982bfae21b2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/bc55e50e42945bf0760d6aabe2e82c15/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/bc55e50e42945bf0760d6aabe2e82c15/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/bb09903176c043574ceffd55e813c5ea/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/bb09903176c043574ceffd55e813c5ea/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/5e4e9fb2642e6064c8468b31f5d00ddb/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/5e4e9fb2642e6064c8468b31f5d00ddb/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/2ee9490c1d00c67be829d32784c7027e/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /home/amiqyolo/.gradle/caches/transforms-3/2ee9490c1d00c67be829d32784c7027e/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/a06e6211dc97dc9ec3980b4da87dd00c/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /home/amiqyolo/.gradle/caches/transforms-3/a06e6211dc97dc9ec3980b4da87dd00c/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/135e7a0a6099374b7bd16031b87a2ba1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/135e7a0a6099374b7bd16031b87a2ba1/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/2c36d5eaf8077fc27f2dfbf4deb3becb/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/2c36d5eaf8077fc27f2dfbf4deb3becb/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/amiqyolo/.gradle/caches/transforms-3/52b5877121aef2735d56e79b7a6dbacc/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/amiqyolo/.gradle/caches/transforms-3/52b5877121aef2735d56e79b7a6dbacc/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/0654c146574c7cafe9fe25efb614b6b6/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/0654c146574c7cafe9fe25efb614b6b6/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/5ba9cdd636e35e2044f49a6e0ff5ffc6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/5ba9cdd636e35e2044f49a6e0ff5ffc6/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/302ead06fc108d0874b8e3f7497244dc/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/302ead06fc108d0874b8e3f7497244dc/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/dd4e00bd7d81378dd9c352d262f42133/transformed/lifecycle-reactivestreams-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/dd4e00bd7d81378dd9c352d262f42133/transformed/lifecycle-reactivestreams-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/0b38e17d362bdbaee4e8020af04b8eaf/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/0b38e17d362bdbaee4e8020af04b8eaf/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/amiqyolo/.gradle/caches/transforms-3/9a6fdb9a2bcf9ed97bfb9869a2bd9158/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/amiqyolo/.gradle/caches/transforms-3/9a6fdb9a2bcf9ed97bfb9869a2bd9158/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/961df9cfa941e4e4ed61265578baff9c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/961df9cfa941e4e4ed61265578baff9c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/6381ba96c1137cfa9765b6e97e9b066a/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/6381ba96c1137cfa9765b6e97e9b066a/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/340d55a47310bd5878ce965d9946abe7/transformed/room-rxjava2-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/340d55a47310bd5878ce965d9946abe7/transformed/room-rxjava2-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/494d24e2657d464a95f9cff5e0df8b76/transformed/jetified-lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/494d24e2657d464a95f9cff5e0df8b76/transformed/jetified-lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/6fe9aa5ffa02a44d065f3dc535cc6284/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/6fe9aa5ffa02a44d065f3dc535cc6284/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/cfbaa9a9f7df712b3e985cfb4f986276/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /home/amiqyolo/.gradle/caches/transforms-3/cfbaa9a9f7df712b3e985cfb4f986276/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/amiqyolo/.gradle/caches/transforms-3/e7faa9868cfa37e64284fc0c1c6ca076/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/amiqyolo/.gradle/caches/transforms-3/e7faa9868cfa37e64284fc0c1c6ca076/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/f086fa1d2b8b2f2d9b9d69d24b08026d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/f086fa1d2b8b2f2d9b9d69d24b08026d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/fa6d291c4684acdcd335340505b0b1bd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/fa6d291c4684acdcd335340505b0b1bd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/c125c1b0abfdb113892bf57a1c66ff43/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/c125c1b0abfdb113892bf57a1c66ff43/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/15f10ce2fda71203a3b8823674a1d5e4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/15f10ce2fda71203a3b8823674a1d5e4/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/fa2f93a98d2f33198787af7ae98b3152/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/fa2f93a98d2f33198787af7ae98b3152/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/amiqyolo/.gradle/caches/transforms-3/f6a843617ceaccb2179fa954bff66959/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /home/amiqyolo/.gradle/caches/transforms-3/f6a843617ceaccb2179fa954bff66959/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [net.zetetic:android-database-sqlcipher:4.5.1] /home/amiqyolo/.gradle/caches/transforms-3/149ce8a7a719a63915aa59ea255783c4/transformed/jetified-android-database-sqlcipher-4.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [net.zetetic:android-database-sqlcipher:4.5.1] /home/amiqyolo/.gradle/caches/transforms-3/149ce8a7a719a63915aa59ea255783c4/transformed/jetified-android-database-sqlcipher-4.5.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.sqlite:sqlite-ktx:2.2.0] /home/amiqyolo/.gradle/caches/transforms-3/b5dc0bd265e3bcc51ab5b46664b761c1/transformed/jetified-sqlite-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-ktx:2.2.0] /home/amiqyolo/.gradle/caches/transforms-3/b5dc0bd265e3bcc51ab5b46664b761c1/transformed/jetified-sqlite-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/amiqyolo/.gradle/caches/transforms-3/c03a7a4d54284da97332e07d37bc485a/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /home/amiqyolo/.gradle/caches/transforms-3/c03a7a4d54284da97332e07d37bc485a/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/93f504dabe87a9266b357e7cdb25400a/transformed/jetified-leakcanary-object-watcher-android-androidx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/93f504dabe87a9266b357e7cdb25400a/transformed/jetified-leakcanary-object-watcher-android-androidx-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/8db7b628a602d07c3a739df548829b92/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/8db7b628a602d07c3a739df548829b92/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/3282dc449868a296c3361751e95db411/transformed/jetified-leakcanary-object-watcher-android-core-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/3282dc449868a296c3361751e95db411/transformed/jetified-leakcanary-object-watcher-android-core-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/23a50ac8e44cb813626baaec4fc76ba0/transformed/jetified-plumber-android-core-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/23a50ac8e44cb813626baaec4fc76ba0/transformed/jetified-plumber-android-core-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/d611b162c084271bbfddda29f5c85b15/transformed/jetified-leakcanary-android-utils-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/d611b162c084271bbfddda29f5c85b15/transformed/jetified-leakcanary-android-utils-2.8.1/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.curtains:curtains:1.2.3] /home/amiqyolo/.gradle/caches/transforms-3/ac0568e22acee96ed107d26aad8bcfb7/transformed/jetified-curtains-1.2.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.curtains:curtains:1.2.3] /home/amiqyolo/.gradle/caches/transforms-3/ac0568e22acee96ed107d26aad8bcfb7/transformed/jetified-curtains-1.2.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/f3354b49e479a204802bdd361625ac63/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/amiqyolo/.gradle/caches/transforms-3/f3354b49e479a204802bdd361625ac63/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/amiqyolo/.gradle/caches/transforms-3/1aac9559d23fea5aab1cafda08076451/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /home/amiqyolo/.gradle/caches/transforms-3/1aac9559d23fea5aab1cafda08076451/transformed/jetified-rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [:favorite] /home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:9:5-17
+MERGED from [:favorite] /home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:9:5-17
+MERGED from [:search] /home/amiqyolo/Desktop/Submission/MovieAplen/search/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:9:5-17
+MERGED from [:search] /home/amiqyolo/Desktop/Submission/MovieAplen/search/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:9:5-17
+MERGED from [:setting] /home/amiqyolo/Desktop/Submission/MovieAplen/setting/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:9:5-17
+MERGED from [:setting] /home/amiqyolo/Desktop/Submission/MovieAplen/setting/build/intermediates/metadata_feature_manifest/debug/AndroidManifest.xml:9:5-17
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		ADDED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		MERGED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		MERGED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		MERGED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+		INJECTED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/ce4ce36b2f316343871e2167303f4eab/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:23:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:26:22-74
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:30:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:34:13-36:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:36:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:35:17-67
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:39:9-70:20
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:43:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:41:13-36
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:42:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:45:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:44:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:40:13-69
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\..*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\..*\\.hprof+data:pathPattern:.*\\..*\\.hprof+data:pathPattern:.*\\.hprof+data:scheme:content+data:scheme:file
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:46:13-69:29
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:46:28-81
+action#android.intent.action.VIEW
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:47:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:49:17-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:49:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:50:17-78
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:50:27-75
+data
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:17-47
+	android:scheme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:52:23-44
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:72:9-89:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:75:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:78:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:76:13-36
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:79:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:77:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:74:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:81:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:80:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:73:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:82:13-88:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:87:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:87:27-83
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:91:9-97:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:95:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:93:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:94:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:97:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:96:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:92:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:99:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/4690608a0657b189ad315332ba422474/transformed/jetified-leakcanary-android-core-2.8.1/AndroidManifest.xml:99:19-74
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/amiqyolo/.gradle/caches/transforms-3/0d1d5738228e2baa2d67f89e0e72c8a3/transformed/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/961df9cfa941e4e4ed61265578baff9c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/961df9cfa941e4e4ed61265578baff9c/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /home/amiqyolo/.gradle/caches/transforms-3/3ff9c8749c3bbee8fd993f3f79e2c21a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /home/amiqyolo/.gradle/caches/transforms-3/c20435d177d8a8aa30a9f326436e2237/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.2] /home/amiqyolo/.gradle/caches/transforms-3/5faae268222197bad4e9516eda014d1f/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+provider#leakcanary.internal.MainProcessAppWatcherInstaller
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/77c24769423d617c6d5b54c22c62c740/transformed/jetified-leakcanary-object-watcher-android-2.8.1/AndroidManifest.xml:9:13-78
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.8.1] /home/amiqyolo/.gradle/caches/transforms-3/f081c320d6e3fcb460e93b8350e07656/transformed/jetified-plumber-android-2.8.1/AndroidManifest.xml:9:13-64
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/AndroidManifest.xml:2:1-34:12 reason: com.aplen.movieaplen has a targetSdkVersion < 4

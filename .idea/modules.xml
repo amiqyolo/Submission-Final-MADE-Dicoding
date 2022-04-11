@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MovieAplen.iml" filepath="$PROJECT_DIR$/.idea/modules/MovieAplen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.iml" filepath="$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.iml" filepath="$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.iml" filepath="$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.iml" />
+    </modules>
+  </component>
+</project>

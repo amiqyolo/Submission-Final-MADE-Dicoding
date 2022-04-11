@@ -1,0 +1,31 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    featureSplit="favorite"
+5    package="com.aplen.movieaplen"
+6    android:versionCode="1"
+7    android:versionName="1.0" >
+8
+9    <uses-sdk android:minSdkVersion="23" />
+9-->/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/src/main/AndroidManifest.xml
+10
+11    <dist:module
+11-->/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/src/main/AndroidManifest.xml:5:5-12:19
+12        dist:instant="false"
+12-->/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/src/main/AndroidManifest.xml:6:9-29
+13        dist:title="@string/title_favorite" >
+13-->/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/src/main/AndroidManifest.xml:7:9-44
+14        <dist:delivery>
+14-->/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/src/main/AndroidManifest.xml:8:9-10:25
+15            <dist:install-time />
+15-->/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/src/main/AndroidManifest.xml:9:13-34
+16        </dist:delivery>
+17
+18        <dist:fusing dist:include="false" />
+18-->/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/src/main/AndroidManifest.xml:11:9-45
+18-->/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/src/main/AndroidManifest.xml:11:22-42
+19    </dist:module>
+20
+21    <application android:extractNativeLibs="false" />
+22
+23</manifest>

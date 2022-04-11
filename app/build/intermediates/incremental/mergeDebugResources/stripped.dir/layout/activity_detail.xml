@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.detail.DetailActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorOnPrimary"
+        android:elevation="10dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Theme.MovieAplen">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:titleEnabled="false">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_detail_backdrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="236dp"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="fitXY"
+                    app:layout_collapseMode="parallax"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="236dp"
+                    android:background="@color/background_image_tint"
+                    app:layout_collapseMode="parallax"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0" />
+
+                <TextView
+                    android:id="@+id/tv_detail_title"
+                    style="@style/TextItem.ItemColor"
+                    android:layout_marginHorizontal="16dp"
+                    android:includeFontPadding="false"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/mvc_detail_poster"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/mvc_detail_poster"
+                    app:layout_constraintTop_toBottomOf="@+id/img_detail_backdrop"
+                    app:layout_constraintVertical_bias=".3" />
+
+                <TextView
+                    android:id="@+id/tv_detail_rating"
+                    style="@style/TextItem.OtherItemColor.Field"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:drawablePadding="4dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/tv_detail_title"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_detail_title" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/mvc_detail_poster"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="76dp"
+                    app:cardCornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias=".1"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img_detail_backdrop">
+
+                    <ImageView
+                        android:id="@+id/img_detail_poster"
+                        android:layout_width="116dp"
+                        android:layout_height="176dp"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="fitXY"
+                        tools:ignore="ImageContrastCheck" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/Theme.MovieAplen.AppBarOverlay"
+                app:layout_collapseMode="pin"
+                app:layout_constraintBottom_toBottomOf="@+id/fl_backdrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0"
+                app:menu="@menu/menu_on_shared"
+                app:popupTheme="@style/Theme.MovieAplen.PopupOverlay"
+                app:title="@null" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorOnPrimary"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/info_detail"
+                style="@style/TextContent.ItemColor"
+                android:text="@string/detail_information"
+                android:textSize="22sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias=".1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias=".1" />
+
+            <TextView
+                android:id="@+id/info_release"
+                style="@style/TextContent.ItemColor.Field"
+                android:layout_marginTop="16dp"
+                android:text="@string/info_release"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/info_detail"
+                app:layout_constraintTop_toBottomOf="@+id/info_detail" />
+
+            <TextView
+                android:id="@+id/tv_detail_release"
+                style="@style/TextItem.ItemColor"
+                android:layout_marginStart="8dp"
+                android:includeFontPadding="false"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/info_release"
+                app:layout_constraintTop_toTopOf="@id/info_release" />
+
+            <TextView
+                android:id="@+id/info_genre"
+                style="@style/TextContent.ItemColor.Field"
+                android:layout_marginTop="8dp"
+                android:text="@string/Info_genre"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/info_release"
+                app:layout_constraintTop_toBottomOf="@+id/tv_detail_release" />
+
+            <HorizontalScrollView
+                android:id="@+id/hsv_cg"
+                style="?attr/chipGroupStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fillViewport="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/info_genre"
+                app:layout_constraintTop_toBottomOf="@+id/info_genre"
+                app:singleLine="true">
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/cg_detail_genre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="true" />
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/info_overview"
+                style="@style/TextContent.ItemColor.Field"
+                android:layout_marginTop="14dp"
+                android:text="@string/info_overview"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/info_genre"
+                app:layout_constraintTop_toBottomOf="@+id/hsv_cg" />
+
+            <TextView
+                android:id="@+id/tv_detail_overview"
+                style="@style/TextItem.ItemColor"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="28dp"
+                android:includeFontPadding="false"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/info_overview"
+                app:layout_constraintTop_toBottomOf="@+id/info_overview" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/favorites"
+        android:foregroundGravity="bottom"
+        app:fabSize="normal"
+        app:layout_anchor="@id/nested"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@drawable/ic_favorite_border" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
