@@ -22,11 +22,8 @@
     <string name="title_shared">Beritahu orang lain yuuk…!</string>
     <string name="text_shared">Kunjungi https://www.themoviedb.org untuk mendapatkan lebih banyak Daftar Movies dan Tv Shows.</string>
     <string name="your_favorite_data_doest_n_exits">Your Favorite Data Doest\'n Exits.</string>
-    <string name="explore_do_you_want_to_movie">Explore do you want to movie?</string>
     <string name="title_search">Search</string>
     <string name="dark_mode_title">Dark Mode</string>
     <string name="no_data">Data doest\'s Exits</string>
     <string name="explore_title">Explore Best Movies</string>
-    <string name="explore_desc">find your movies now</string>
-    <string name="refresh">Refresh</string>
 </resources>
