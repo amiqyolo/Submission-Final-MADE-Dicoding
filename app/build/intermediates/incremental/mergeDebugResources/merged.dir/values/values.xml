@@ -569,7 +569,6 @@
     <bool name="leak_canary_allow_in_non_debuggable_build">false</bool>
     <bool name="leak_canary_plumber_auto_install">true</bool>
     <bool name="leak_canary_watcher_auto_install">true</bool>
-    <bool name="leak_canary_watcher_watch_dismissed_dialogs">false</bool>
     <bool name="m3_sys_typescale_body_large_text_all_caps">false</bool>
     <bool name="m3_sys_typescale_body_medium_text_all_caps">false</bool>
     <bool name="m3_sys_typescale_body_small_text_all_caps">false</bool>
@@ -1545,6 +1544,7 @@
     <item name="fragment_container_view_tag" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="ghost_view_holder" type="id"/>
+    <item name="glide_custom_view_target_tag" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="leak_canary_notification_analysis_result" type="id"/>
@@ -1677,10 +1677,6 @@
     <item quantity="one">%1$d leak at %2$s</item>
     <item quantity="other">%1$d leaks at %2$s</item>
   </plurals>
-    <plurals name="leak_canary_heap_analysis_list_screen_title">
-    <item quantity="one">%d Heap Dump</item>
-    <item quantity="other">%d Heap Dumps</item>
-  </plurals>
     <plurals description="Plural form content description for number of new notifications [CHAR_LIMIT=NONE]" name="mtrl_badge_content_description">
     <item quantity="one"><ns2:g id="count">%d</ns2:g> new notification</item>
     <item quantity="other"><ns2:g id="count">%d</ns2:g> new notifications</item>
@@ -1744,13 +1740,10 @@
     <string name="info_overview">Overview</string>
     <string name="info_release">Release</string>
     <string name="item_view_role_description">Tab</string>
-    <string name="leak_canary_about_enable_heap_dump">Dump heap automatically</string>
-    <string name="leak_canary_about_enable_heap_dump_textOff">Disable</string>
-    <string name="leak_canary_about_enable_heap_dump_textOn">Enable</string>
     <string name="leak_canary_about_menu">About LeakCanary</string>
     <string name="leak_canary_about_message"><![CDATA[This is a dev extension for
   <b>%1$s</b> (<i>%2$s</i>), automatically added by the LeakCanary library.<br><br>
-  <a href="https://square.github.io/leakcanary/">LeakCanary</a> is a memory leak detection library for Android, created
+  <a href="https://github.com/square/leakcanary">LeakCanary</a> is a memory leak detection library for Android, created
   and open sourced by <a href="https://twitter.com/Piwai">Pierre-Yves Ricau</a> at <a href="https://square.github.io">Square</a>.<br><br>
   You can learn more about memory leaks at <a href="https://squ.re/leaks">https://squ.re/leaks</a>.<br><br>
   We welcome contributions from the community - please do not hesitate to
@@ -1759,7 +1752,7 @@
     <string name="leak_canary_about_title">About LeakCanary %s</string>
     <string name="leak_canary_analysis_deleted_title">Analysis Deleted</string>
     <string name="leak_canary_analysis_failed">Heap analysis failed</string>
-    <string name="leak_canary_analysis_success_notification">Found %1$d retained objects grouped as %2$d distinct leaks (%3$d new)</string>
+    <string name="leak_canary_analysis_success_notification">Found %1$d retained objects grouped as %2$d distinct leaks</string>
     <string name="leak_canary_class_has_leaked">%1$s Leaked</string>
     <string name="leak_canary_delete">Delete</string>
     <string name="leak_canary_delete_all">Delete all</string>
@@ -1774,27 +1767,27 @@
     <string name="leak_canary_generating_hq_bitmap_toast_notice">Rendering HQ Bitmap, this may take a while…</string>
     <string name="leak_canary_go_to_heap_analysis">Go to Heap Analysis</string>
     <string name="leak_canary_group_list_time_label">Last leaked %s</string>
+    <string name="leak_canary_heap_analysis_list_screen_title">%d Heap Dumps</string>
     <string name="leak_canary_heap_analysis_success_screen_row_time_format">Latest: %s</string>
+    <string name="leak_canary_heap_dump_disabled_build_non_debuggable">the debugger is attached and LeakCanary.Config.dumpHeapWhenDebugging is set to false</string>
     <string name="leak_canary_heap_dump_disabled_by_app">LeakCanary.Config.dumpHeap is set to false</string>
-    <string name="leak_canary_heap_dump_disabled_from_ui">heap dumping disabled from LeakCanary About screen</string>
-    <string name="leak_canary_heap_dump_disabled_running_tests">test class "%s" was found in classpath</string>
-    <string name="leak_canary_heap_dump_disabled_text">LeakCanary is currently disabled: <i>%s</i>.</string>
-    <string name="leak_canary_heap_dump_enabled_text">LeakCanary is running and ready to detect memory leaks.</string>
-    <string name="leak_canary_heap_dump_not_installed_text">AppWatcher is not installed</string>
+    <string name="leak_canary_heap_dump_disabled_running_tests">tests are running</string>
+    <string name="leak_canary_heap_dump_disabled_text">Heap dumping is currently disabled, because <i>%s</i>.</string>
+    <string name="leak_canary_heap_dump_enabled_text">Heap dumping is currently enabled.</string>
+    <string name="leak_canary_heap_dump_not_installed_text">AppWatcher is not installed.</string>
     <string name="leak_canary_heap_dump_screen_title">Heap Dump %s</string>
     <string name="leak_canary_help_title">Tap here to learn more</string>
     <string name="leak_canary_import_from_title">Import From…</string>
     <string name="leak_canary_import_hprof_file">Import Heap Dump</string>
-    <string name="leak_canary_import_unsupported_file_extension">Could not import %s, this is not an hprof file.</string>
     <string name="leak_canary_leak_clipdata_label">LeakCanary Leak Trace</string>
     <string name="leak_canary_leak_copied">Leak info copied to clipboard</string>
-    <string name="leak_canary_leak_missing_browser_error">No browser app installed</string>
     <string name="leak_canary_leak_not_found">Leak not found</string>
     <string name="leak_canary_loading_title">Loading…</string>
     <string name="leak_canary_notification_analysing">Analyzing Heap Dump</string>
     <string name="leak_canary_notification_channel_low">LeakCanary Low Priority</string>
     <string name="leak_canary_notification_channel_result">LeakCanary Result</string>
     <string name="leak_canary_notification_dumping">Dumping Heap</string>
+    <string name="leak_canary_notification_foreground_text">LeakCanary is working.</string>
     <string name="leak_canary_notification_message">Tap for more details</string>
     <string name="leak_canary_notification_no_retained_object_content">Tap to dismiss</string>
     <string name="leak_canary_notification_no_retained_object_title">All retained objects were garbage collected</string>

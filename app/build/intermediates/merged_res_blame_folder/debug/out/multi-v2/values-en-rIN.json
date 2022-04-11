@@ -4,24 +4,7 @@
             "outputFile": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
-                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/a06e6211dc97dc9ec3980b4da87dd00c/transformed/core-1.7.0/res/values-en-rIN/values-en-rIN.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "32",
-                        "startColumns": "4",
-                        "startOffsets": "3068",
-                        "endColumns": "100",
-                        "endOffsets": "3164"
-                    }
-                },
-                {
-                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/59b9d973bf3579da3103a104ba280d19/transformed/navigation-ui-2.4.1/res/values-en-rIN/values-en-rIN.xml",
+                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/5921b6f3d62a96a94e5a17152107d3bc/transformed/navigation-ui-2.4.1/res/values-en-rIN/values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/1b80d609baa5b2765134a3a7e2deb5ee/transformed/appcompat-1.4.1/res/values-en-rIN/values-en-rIN.xml",
+                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/7559ae89a3564a1afdc6a7c2c429ec26/transformed/core-1.7.0/res/values-en-rIN/values-en-rIN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "32",
+                        "startColumns": "4",
+                        "startOffsets": "3068",
+                        "endColumns": "100",
+                        "endOffsets": "3164"
+                    }
+                },
+                {
+                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/7323e4bf20be4e29629c7511bae96c5d/transformed/appcompat-1.4.1/res/values-en-rIN/values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,16 +1,4 @@
-#Mon Apr 11 15:53:59 WIB 2022
-path.4=5/classes.dex
-path.3=3/classes.dex
-path.2=14/classes.dex
-path.1=1/classes.dex
-path.0=0/classes.dex
-base.4=/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
-base.3=/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.2=/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
-base.1=/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.0=/home/amiqyolo/Desktop/Submission/MovieAplen/favorite/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
+#Mon Apr 11 17:08:26 WIB 2022
+base.0=/home/amiqyolo/Desktop/Submission/MovieAplen/app/build/intermediates/feature_dex/debug/feature-favorite/classes.dex
 renamed.0=classes.dex
-renamed.4=classes5.dex
+path.0=classes.dex

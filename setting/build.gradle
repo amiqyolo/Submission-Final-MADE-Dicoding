@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.dynamic-feature'
+    id 'com.squareup.leakcanary.deobfuscation'
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-parcelize'
     id 'kotlin-kapt'

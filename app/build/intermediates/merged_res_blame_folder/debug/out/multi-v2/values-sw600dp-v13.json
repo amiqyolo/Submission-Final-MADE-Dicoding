@@ -4,7 +4,7 @@
             "outputFile": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/1b80d609baa5b2765134a3a7e2deb5ee/transformed/appcompat-1.4.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/7323e4bf20be4e29629c7511bae96c5d/transformed/appcompat-1.4.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/2effe45915c24c17016d62eadfd60535/transformed/material-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/amiqyolo/.gradle/caches/transforms-3/63accd339472f4374fb1daf60ede7232/transformed/material-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

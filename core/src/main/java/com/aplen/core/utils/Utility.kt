@@ -1,19 +1,20 @@
 package com.aplen.core.utils
 
-import android.content.Context
 import android.view.View
 import android.widget.ImageView
-import android.widget.Toast
 import com.aplen.core.R
-import com.squareup.picasso.Picasso
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 
 object Utility {
 
-    fun ImageView.load(image: String?) {
-        Picasso.get()
+    fun ImageView.load(image: Any?) {
+        Glide.with(context.applicationContext)
             .load(image)
-            .placeholder(R.drawable.ic_loading)
-            .error(R.drawable.ic_error_image)
+            .apply(
+                RequestOptions.placeholderOf(R.drawable.ic_loading)
+                    .error(R.drawable.ic_error_image)
+            )
             .into(this)
     }
 

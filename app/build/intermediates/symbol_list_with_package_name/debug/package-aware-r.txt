@@ -1256,7 +1256,6 @@ bool leak_canary_add_launcher_icon
 bool leak_canary_allow_in_non_debuggable_build
 bool leak_canary_plumber_auto_install
 bool leak_canary_watcher_auto_install
-bool leak_canary_watcher_watch_dismissed_dialogs
 bool m3_sys_typescale_body_large_text_all_caps
 bool m3_sys_typescale_body_medium_text_all_caps
 bool m3_sys_typescale_body_small_text_all_caps
@@ -2661,7 +2660,6 @@ drawable leak_canary_icon_foreground
 drawable leak_canary_info
 drawable leak_canary_info_rectangle
 drawable leak_canary_leak
-drawable leak_canary_list_selector
 drawable leak_canary_primary_button
 drawable leak_canary_secondary_button
 drawable leak_canary_tab_background
@@ -2917,6 +2915,7 @@ id fragment_container_view_tag
 id frost
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -2960,7 +2959,6 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
-id leak_canary_about_heap_dump_switch_button
 id leak_canary_about_heap_dump_text
 id leak_canary_about_text
 id leak_canary_bottom_navigation_bar
@@ -3500,7 +3498,6 @@ mipmap leak_canary_icon
 navigation mobile_navigation
 plurals leak_canary_distinct_leaks
 plurals leak_canary_group_screen_title
-plurals leak_canary_heap_analysis_list_screen_title
 plurals mtrl_badge_content_description
 raw emptybox
 raw errorbox
@@ -3564,9 +3561,6 @@ string icon_content_description
 string info_overview
 string info_release
 string item_view_role_description
-string leak_canary_about_enable_heap_dump
-string leak_canary_about_enable_heap_dump_textOff
-string leak_canary_about_enable_heap_dump_textOn
 string leak_canary_about_menu
 string leak_canary_about_message
 string leak_canary_about_title
@@ -3587,9 +3581,10 @@ string leak_canary_generating_hq_bitmap_toast_failure_notice
 string leak_canary_generating_hq_bitmap_toast_notice
 string leak_canary_go_to_heap_analysis
 string leak_canary_group_list_time_label
+string leak_canary_heap_analysis_list_screen_title
 string leak_canary_heap_analysis_success_screen_row_time_format
+string leak_canary_heap_dump_disabled_build_non_debuggable
 string leak_canary_heap_dump_disabled_by_app
-string leak_canary_heap_dump_disabled_from_ui
 string leak_canary_heap_dump_disabled_running_tests
 string leak_canary_heap_dump_disabled_text
 string leak_canary_heap_dump_enabled_text
@@ -3598,16 +3593,15 @@ string leak_canary_heap_dump_screen_title
 string leak_canary_help_title
 string leak_canary_import_from_title
 string leak_canary_import_hprof_file
-string leak_canary_import_unsupported_file_extension
 string leak_canary_leak_clipdata_label
 string leak_canary_leak_copied
-string leak_canary_leak_missing_browser_error
 string leak_canary_leak_not_found
 string leak_canary_loading_title
 string leak_canary_notification_analysing
 string leak_canary_notification_channel_low
 string leak_canary_notification_channel_result
 string leak_canary_notification_dumping
+string leak_canary_notification_foreground_text
 string leak_canary_notification_message
 string leak_canary_notification_no_retained_object_content
 string leak_canary_notification_no_retained_object_title
