@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3661e3a5-2f88-492a-a220-9f4af60cb0cd" name="Default Changelist" comment="cleaning warning">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favorite/src/main/res/layout/fragment_favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/favorite/src/main/res/layout/fragment_favorite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/search/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search/src/main/res/layout/fragment_explore.xml" beforeDir="false" afterPath="$PROJECT_DIR$/search/src/main/res/layout/fragment_explore.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +82,7 @@
     </file-type-list>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedIndex" value="4" />
+    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="27I8M93QlDY30Qnei1RqUo1Kqct" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -323,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649683196643</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="cleaning warning">
+      <created>1649686008975</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1649686008975</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

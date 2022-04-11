@@ -14,13 +14,13 @@
         android:id="@+id/navigation_explore"
         android:name="com.aplen.search.ui.ExploreFragment"
         android:label="@string/title_explore"
-        tools:layout="@layout/fragment_explore" />
+        tools:layout="@layout/fragment_explore"/>
 
     <fragment
         android:id="@+id/navigation_favorites"
         android:name="com.aplen.favorite.ui.FavoriteFragment"
         android:label="@string/title_favorite"
-        tools:layout="@layout/fragment_favorite" />
+        tools:layout="@layout/fragment_favorite"/>
 
     <fragment
         android:id="@+id/navigation_settings"
