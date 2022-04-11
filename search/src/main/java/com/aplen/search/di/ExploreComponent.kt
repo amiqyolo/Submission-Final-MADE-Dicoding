@@ -5,7 +5,10 @@ import com.aplen.search.ui.ExploreFragment
 import dagger.Component
 
 @ExploreAppScope
-@Component(dependencies = [AppComponent::class], modules = [ExploreViewModelModule::class])
+@Component(
+    dependencies = [AppComponent::class],
+    modules = [ExploreViewModelModule::class]
+)
 interface ExploreComponent {
 
     @Component.Factory
