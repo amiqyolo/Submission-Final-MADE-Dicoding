@@ -24,6 +24,7 @@ import com.aplen.search.databinding.FragmentExploreBinding
 import com.aplen.search.di.DaggerExploreComponent
 import io.reactivex.Flowable
 import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import java.util.concurrent.TimeUnit
 import javax.inject.Inject
@@ -39,6 +40,8 @@ class ExploreFragment : Fragment() {
     private var _binding: FragmentExploreBinding? = null
     private val binding get() = _binding
 
+    private var compositeDisposable: CompositeDisposable? = null
+
     private val exploreViewModel: ExploreViewModel by viewModels { factory }
 
     private var lottieImageEmpty: Int = 0
@@ -49,6 +52,7 @@ class ExploreFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?,
     ): View? {
+        compositeDisposable = CompositeDisposable()
         _binding = FragmentExploreBinding.inflate(inflater, container, false)
         return binding?.root
     }
@@ -76,8 +80,12 @@ class ExploreFragment : Fragment() {
                 .flatMap { Flowable.just(it) }
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
-                .subscribe { text ->
-                    observeExplore(text)
+                .subscribe ({ text ->
+                    observeExplore(text, view)
+                }, {
+                    println(it)
+                }).let {
+                    compositeDisposable?.add(it)
                 }
 
             binding?.rvMovie?.layoutManager = LinearLayoutManager(context)
@@ -97,33 +105,35 @@ class ExploreFragment : Fragment() {
         }
     }
 
-    private fun observeExplore(text: String) {
-        exploreViewModel.exploreMovie(text).observe(viewLifecycleOwner) { result ->
-            when (result) {
-                is Resource.Error -> {
-                    showLoading(false)
-                    showRecyclerView(false)
-                    showEmptyView(false)
-                    showErrorView(true, result.message)
-                }
-                is Resource.Loading -> {
-                    showEmptyView(false)
-                    showRecyclerView(false)
-                    showErrorView(false, null)
-                    showLoading(true)
-                }
-                is Resource.Success -> {
-                    if (result.data?.isNotEmpty() == true) {
-                        adapter.submitList(result.data)
-                        showEmptyView(false)
+    private fun observeExplore(text: String, view: View?) {
+        if (view != null) {
+            exploreViewModel.exploreMovie(text).observe(viewLifecycleOwner) { result ->
+                when (result) {
+                    is Resource.Error -> {
                         showLoading(false)
-                        showErrorView(false, null)
-                        showRecyclerView(true)
-                    } else {
                         showRecyclerView(false)
-                        showLoading(false)
+                        showEmptyView(false)
+                        showErrorView(true, result.message)
+                    }
+                    is Resource.Loading -> {
+                        showEmptyView(false)
+                        showRecyclerView(false)
                         showErrorView(false, null)
-                        showEmptyView(true)
+                        showLoading(true)
+                    }
+                    is Resource.Success -> {
+                        if (result.data?.isNotEmpty() == true) {
+                            adapter.submitList(result.data)
+                            showEmptyView(false)
+                            showLoading(false)
+                            showErrorView(false, null)
+                            showRecyclerView(true)
+                        } else {
+                            showRecyclerView(false)
+                            showLoading(false)
+                            showErrorView(false, null)
+                            showEmptyView(true)
+                        }
                     }
                 }
             }
@@ -167,9 +177,34 @@ class ExploreFragment : Fragment() {
         if (isLoading) binding?.viewShimmer?.visible() else binding?.viewShimmer?.gone()
     }
 
+    override fun onResume() {
+        exploreViewModel.searchResult(binding?.itemSearch)
+            .debounce(1500, TimeUnit.MILLISECONDS)
+            .filter { text -> text.isNotEmpty() && text.length >= 3 }
+            .map { text -> text.lowercase().trim() }
+            .distinctUntilChanged()
+            .flatMap { Flowable.just(it) }
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe ({ text ->
+                observeExplore(text, view)
+            }, {
+                println(it)
+            }).let {
+                compositeDisposable?.add(it)
+            }
+        super.onResume()
+    }
+
     override fun onDestroyView() {
-        super.onDestroyView()
+        compositeDisposable = null
         binding?.rvMovie?.adapter = null
         _binding = null
+        super.onDestroyView()
+    }
+
+    override fun onDestroy() {
+        compositeDisposable?.dispose()
+        super.onDestroy()
     }
 }

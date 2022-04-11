@@ -1,4 +1,4 @@
-#Mon Apr 11 17:38:19 WIB 2022
+#Mon Apr 11 18:20:44 WIB 2022
 base.0=/home/amiqyolo/Desktop/Submission/MovieAplen/app/build/intermediates/feature_dex/debug/feature-search/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

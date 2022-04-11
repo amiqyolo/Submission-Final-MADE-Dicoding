@@ -47,7 +47,7 @@ class MovieRepository @Inject constructor(
                         val data = DataMapper.responseMovieToDomain(response.data)
                         resultData.onNext(Resource.Success(data))
                     }
-                    is ApiResponse.Empty -> resultData.isEmpty
+                    is ApiResponse.Empty -> resultData.onNext(Resource.Success(emptyList()))
                     is ApiResponse.Error -> resultData.onNext(
                         Resource.Error(response.errorMessage, null)
                     )

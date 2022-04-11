@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/build/intermediates/merged_res/debug/drawable_ic_share.xml.flat",
-        "source": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/res/drawable/ic_share.xml"
-    },
-    {
         "merged": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
         "source": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/build/intermediates/merged_res/debug/drawable_ic_share.xml.flat",
+        "source": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/src/main/res/drawable/ic_share.xml"
     },
     {
         "merged": "/home/amiqyolo/Desktop/Submission/MovieAplen/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
