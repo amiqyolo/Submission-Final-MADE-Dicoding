@@ -30,7 +30,8 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@id/lottie_view"
         app:layout_constraintStart_toStartOf="@id/lottie_view"
-        app:layout_constraintTop_toBottomOf="@id/lottie_view" />
+        app:layout_constraintTop_toBottomOf="@id/lottie_view"
+        tools:ignore="UnusedIds" />
 
     <com.facebook.shimmer.ShimmerFrameLayout
         android:id="@+id/view_shimmer"
@@ -42,7 +43,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/item_search"
-        app:shimmer_auto_start="true">
+        app:shimmer_auto_start="true"
+        tools:ignore="UnusedIds">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -79,6 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/item_search"
+        tools:ignore="UnusedIds"
         tools:listitem="@layout/item_row_movie" />
 
     <androidx.appcompat.widget.SearchView
