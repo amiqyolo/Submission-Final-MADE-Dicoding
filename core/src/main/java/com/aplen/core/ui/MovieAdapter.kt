@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.aplen.core.databinding.ItemRowMovieBinding
 import com.aplen.core.domain.model.Movie
 import com.aplen.core.utils.Utility.load
+import java.math.RoundingMode
 
 class MovieAdapter :
     ListAdapter<Movie, MovieAdapter.MoviesViewHolder>(MoviesAdapterComparator()) {
@@ -28,7 +29,7 @@ class MovieAdapter :
             binding.apply {
                 imgItemPoster.load(movie.getPosterMovieImage())
                 tvItemTitle.text = movie.title
-                tvItemRating.text = movie.voteAverage.toString()
+                tvItemRating.text = movie.voteAverage?.toBigDecimal()?.setScale(1, RoundingMode.UP).toString()
                 tvItemOverview.text = movie.overview
                 itemView.setOnClickListener {
                     onItemClickCallback.onItemClicked(movie)
