@@ -25,7 +25,8 @@ class NetworkModule {
         }
 
         val certificatePinner = CertificatePinner.Builder()
-            .add(Constants.HOSTNAME, "sha256/oD/WAoRPvbez1Y2dfYfuo4yujAcYHXdv1Ivb2v2MOKk=")
+            .add(Constants.HOSTNAME, "sha256/5VLcahb6x4EvvFrCF2TePZulWqrLHS2jCg9Ywv6JHog=")
+            .add(Constants.HOSTNAME, "sha256/vxRon/El5KuI4vx5ey1DgmsYmRY0nDd5Cg4GfJ8S+bg=")
             .build()
 
         return OkHttpClient.Builder().apply {
