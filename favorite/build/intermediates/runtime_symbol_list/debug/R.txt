@@ -1,6 +1,0 @@
-int id lottie_view_box 0x7e010000
-int id rv_favorite 0x7e010001
-int id tv_title_box 0x7e010002
-int layout fragment_favorite 0x7e020000
-int style TextItem 0x7e030000
-int style TextItem_ItemColor 0x7e030001

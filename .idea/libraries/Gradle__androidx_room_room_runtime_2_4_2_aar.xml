@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.room:room-runtime:2.4.2@aar">
+  <library name="Gradle: androidx.room:room-runtime:2.4.2@aar" external-system-id="GRADLE">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/48e694f9fcb88a800d90858f8b62caf4/transformed/room-runtime-2.4.2/annotations.zip!/" />
     </ANNOTATIONS>

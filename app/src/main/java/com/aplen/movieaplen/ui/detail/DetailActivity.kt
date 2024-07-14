@@ -21,6 +21,7 @@ import com.aplen.movieaplen.MyApplication
 import com.aplen.movieaplen.R
 import com.aplen.movieaplen.databinding.ActivityDetailBinding
 import com.google.android.material.chip.Chip
+import java.math.RoundingMode
 import javax.inject.Inject
 
 class DetailActivity : AppCompatActivity() {
@@ -58,6 +59,7 @@ class DetailActivity : AppCompatActivity() {
                         showLoading(false)
                         populateMovie(result.data)
                     }
+
                     is Resource.Error -> {
                         Toast.makeText(this@DetailActivity, result.message, Toast.LENGTH_SHORT)
                             .show()
@@ -99,7 +101,9 @@ class DetailActivity : AppCompatActivity() {
                 }
 
                 if (detailMovie.voteAverage != 0.0) {
-                    tvDetailRating.text = detailMovie.voteAverage.toString()
+                    tvDetailRating.text =
+                        detailMovie.voteAverage?.toBigDecimal()?.setScale(1, RoundingMode.UP)
+                            .toString()
                 } else {
                     tvDetailRating.text = resources.getString(R.string.empty_vote)
                 }

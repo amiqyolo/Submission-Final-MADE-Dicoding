@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: androidx.lifecycle:lifecycle-reactivestreams:2.4.1@aar">
+  <library name="Gradle: androidx.lifecycle:lifecycle-reactivestreams:2.4.1@aar" external-system-id="GRADLE">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fc0649646545ec69fae4e876ac43189d/transformed/lifecycle-reactivestreams-2.4.1/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fc0649646545ec69fae4e876ac43189d/transformed/lifecycle-reactivestreams-2.4.1/res" />

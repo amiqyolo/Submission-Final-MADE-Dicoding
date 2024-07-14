@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: com.squareup.leakcanary:shark-hprof:2.4">
+  <library name="Gradle: com.squareup.leakcanary:shark-hprof:2.4" external-system-id="GRADLE">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/shark-hprof/2.4/367ac7b4f37a64747fcf5327258cd5f82496bf89/shark-hprof-2.4.jar!/" />
     </CLASSES>

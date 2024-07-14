@@ -4,10 +4,25 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MovieAplen.iml" filepath="$PROJECT_DIR$/.idea/modules/MovieAplen.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MovieAplen.app.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/core/MovieAplen.core.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.iml" filepath="$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.main.iml" filepath="$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/favorite/MovieAplen.favorite.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.iml" filepath="$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.main.iml" filepath="$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/search/MovieAplen.search.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.iml" filepath="$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.main.iml" filepath="$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/setting/MovieAplen.setting.unitTest.iml" />
     </modules>
   </component>
 </project>
