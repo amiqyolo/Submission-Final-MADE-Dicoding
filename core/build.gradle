@@ -35,6 +35,7 @@ android {
         buildConfigField "String", "API_KEY", "\"${properties.getProperty("API_KEY")}\""
         buildConfigField "String", "BASE_URL", "\"${properties.getProperty("BASE_URL")}\""
         buildConfigField "String", "IMAGE_URL", "\"${properties.getProperty("IMAGE_URL")}\""
+        buildConfigField "String", "CERTIFICATE_KEY", "\"${properties.getProperty("CERTIFICATE_KEY")}\""
     }
 
     buildFeatures {

@@ -8,6 +8,7 @@ object Constants {
     const val BASE_URL = BuildConfig.BASE_URL
     const val API_KEY = BuildConfig.API_KEY
     const val IMAGE_URL = BuildConfig.IMAGE_URL
+    const val CERTIFICATE_KEY = BuildConfig.CERTIFICATE_KEY
     const val EXTRA_MOVIE = "extra_movie"
     const val MOVIE_DB = "movie_database"
     const val FAVORITES_TABLE = "favoritesentities"
