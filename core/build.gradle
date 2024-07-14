@@ -7,6 +7,13 @@ plugins {
 }
 apply from: '../shared_dependencies.gradle'
 
+def properties = new Properties()
+try {
+    properties.load(new FileInputStream(rootProject.file("local.properties")))
+} catch (Exception ignored) {
+    logger.warn("No local.properties file such")
+}
+
 leakCanary {
     // LeakCanary needs to know which variants have obfuscation turned on
     filterObfuscatedVariants { variant ->
@@ -19,14 +26,15 @@ android {
 
     defaultConfig {
         minSdk 23
-
-        buildConfigField "String", "HOSTNAME", "\"api.themoviedb.org\""
-        buildConfigField "String", "API_KEY", apiKey
-        buildConfigField "String", "BASE_URL", "\"https://api.themoviedb.org/3/\""
-        buildConfigField "String", "IMAGE_URL", "\"https://image.tmdb.org/t/p/w500\""
-
+        
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
+
+        // set CREDENTIAL KEYS in BuildConfig
+        buildConfigField "String", "HOSTNAME", "\"${properties.getProperty("HOSTNAME")}\""
+        buildConfigField "String", "API_KEY", "\"${properties.getProperty("API_KEY")}\""
+        buildConfigField "String", "BASE_URL", "\"${properties.getProperty("BASE_URL")}\""
+        buildConfigField "String", "IMAGE_URL", "\"${properties.getProperty("IMAGE_URL")}\""
     }
 
     buildFeatures {
