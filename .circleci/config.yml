@@ -7,9 +7,6 @@ jobs:
   build:
     executor: android/android
     steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "SHA256:ekyZHPLgwG2eerIP4t4kQkCQtM8lAl5uFDW0skn6nCU"
       - checkout
       - restore_cache:
           key: android-orb-v1-{{ checksum "build.gradle" }}-{{ checksum "app/build.gradle" }}
