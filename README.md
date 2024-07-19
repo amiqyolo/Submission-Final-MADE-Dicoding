@@ -73,7 +73,7 @@ This project leverages best practices and popular libraries and tools in the And
 - Clean Architecture
 - MVVM Architecture
 - Modularization (core module)
-- Dynamic Feature (favorite module)
+- Dynamic Feature
 - Dagger2
 - RxJava
 - Android Jetpack Components
