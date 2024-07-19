@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Movie Aplen</string>
-    <string name="title_home">Popular Movies</string>
-    <string name="title_explore">Explore Movies</string>
-    <string name="title_favorite">Your Favorites</string>
+    <string name="title_home">Movies</string>
+    <string name="title_explore">Search</string>
+    <string name="title_favorite">My Watch</string>
     <string name="title_setting">Setting Apps</string>
     <string name="title_nav_home">Home</string>
     <string name="title_nav_explore">Explore</string>
