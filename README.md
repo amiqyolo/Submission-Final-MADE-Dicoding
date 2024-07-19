@@ -39,21 +39,21 @@ There are a few ways to open this project.
 First, obtain the data is dynamically sourced from [The Movie Database API](https://developers.themoviedb.org/3/getting-started/introduction). Register on TMDB to get your API key from your account settings page. To get the certificate key, you can use [ssllabs.com/ssltest](https://www.ssllabs.com/ssltest) and copy the key from each certificate in the `Subject - Pin SHA256` section. Add the key to a file named `local.properties` in your project root directory as follows:
 
 ```bash
-HOSTNAME="api.themoviedb.org"
-BASE_URL="https://api.themoviedb.org/3/"
-IMAGE_URL="https://image.tmdb.org/t/p/w500"
-YOUR_API_KEY="*****"
-YOUR_CERTIFICATE_KEY="*****"
+HOSTNAME=api.themoviedb.org
+BASE_URL=https://api.themoviedb.org/3/
+IMAGE_URL=https://image.tmdb.org/t/p/w500
+YOUR_API_KEY=*****
+YOUR_CERTIFICATE_KEY=*****
 ```
 
 Then, replace it in the `build.gradle(:core)` :
 
 ```bash
-buildConfigField "String", "HOSTNAME", "${properties.getProperty("HOSTNAME")}"
-buildConfigField "String", "BASE_URL", "${properties.getProperty("BASE_URL")}"
-buildConfigField "String", "IMAGE_KEY", "${properties.getProperty("IMAGE_KEY")}"
-buildConfigField "String", "API_KEY", "${properties.getProperty("YOUR_API_KEY")}"
-buildConfigField "String", "CERTIFICATE_FILE", "${properties.getProperty("YOUR_CERTIFICATE_KEY")}"
+buildConfigField "String", "HOSTNAME", "\"${properties.getProperty("HOSTNAME")}\""
+buildConfigField "String", "BASE_URL", "\"${properties.getProperty("BASE_URL")}\""
+buildConfigField "String", "IMAGE_URL", "\"${properties.getProperty("IMAGE_URL")}\""
+buildConfigField "String", "API_KEY", "\"${properties.getProperty("YOUR_API_KEY")}\""
+buildConfigField "String", "CERTIFICATE_KEY", "\"${properties.getProperty("YOUR_CERTIFICATE_KEY")}\""
 ```
 
 Finally, rebuild the project to apply the changes. Remember to update the key reference in the `Constants.kt` file in the `core` module."
